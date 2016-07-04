@@ -1,0 +1,10 @@
+
+    {
+      "name": "LogFileParser",
+      "dependencies": {
+        "fs" : "*",
+        "util" : "*",
+        "json-query": "*",
+        "mongoose" : "*"
+      }
+    }

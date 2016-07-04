@@ -1,0 +1,68 @@
+[
+    {
+      "branch":{
+        "unitId":300,
+        "unitName":"Hinkler Central Bundaberg"
+      },
+      "terminal": "ColesT1",
+      "seqNo" : 3001,
+      "transactionDateTime" : "2016-05-12T18:11:20",
+      "operatorId" : "ColOp1",
+      "transactionStatus": "Finished",
+      "retailTransaction":[
+          {
+            "itemId": "Bread",
+            "itemDescription" : "Whole Wheat",
+            "price" : 2.50
+          },
+          {
+            "itemId": "Eggs",
+            "itemDescription" : "Medium size - 12 eggs",
+            "price" : 3.50
+          },
+          {
+            "itemId": "Jam",
+            "itemDescription" : "Fine quality product - 500g",
+            "price" : 4.0
+          },
+          {
+            "itemId": "Milk",
+            "itemDescription" : "Coles Milk-3 litre",
+            "price" : 3.0
+          }
+        ]
+    },
+    {
+      "branch":{
+        "unitId":301,
+        "unitName":"Sugarland shopping mall"
+      },
+      "terminal": "ColesSelfT1",
+      "seqNo" : 3011,
+      "transactionDateTime" : "2016-06-13T16:45:36",
+      "operatorId" : "self",
+      "transactionStatus": "Finished",
+      "retailTransaction":[
+        {
+          "itemId": "BananaBread",
+          "itemDescription" : "Coles Banana bread-500g",
+          "price" : 3.50
+        },
+        {
+          "itemId": "SmithPotatoChips",
+          "itemDescription" : "Smith's original potato chips",
+          "price" : 2.50
+        },
+        {
+          "itemId": "GingerBeer",
+          "itemDescription" : "Bundaberg ginger beer-280ml",
+          "price" : 3.50
+        },
+        {
+          "itemId": "Milk",
+          "itemDescription" : "Coles Milk-3 litre",
+          "price" : 3.0
+        }
+      ]
+    }
+]

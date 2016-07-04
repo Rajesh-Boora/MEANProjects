@@ -1,0 +1,70 @@
+{
+  "transactions":[
+    {
+      "branch":{
+        "unitId":400,
+        "unitName":"Hinkler Central Bundaberg"
+      },
+      "posTerminal": "WoolsT1",
+      "seqNo" : 4001,
+      "transactionDateTime" : "2016-05-12T18:11:20",
+      "employeeId" : "WoolOp1",
+      "transactionStatus": "Finished",
+      "itemCollection":[
+        {
+          "id": "Bread",
+          "description" : "Whole Wheat",
+          "amount" : 2.50
+        },
+        {
+          "id": "Eggs",
+          "description" : "Medium size - 12 eggs",
+          "amount" : 3.50
+        },
+        {
+          "id": "Jam",
+          "description" : "Fine quality product - 500g",
+          "amount" : 4.0
+        },
+        {
+          "id": "Milk",
+          "description" : "Wools Milk-3 litre",
+          "amount" : 3.0
+        }
+      ]
+    },
+    {
+      "branch":{
+        "unitId":401,
+        "unitName":"Sugarland shopping mall"
+      },
+      "posTerminal": "WoolsSelfT1",
+      "seqNo" : 4011,
+      "transactionDateTime" : "2016-06-13T16:45:36",
+      "employeeId" : "self",
+      "transactionStatus": "Finished",
+      "itemCollection":[
+        {
+          "id": "BananaBread",
+          "description" : "Wools Banana bread-500g",
+          "amount" : 3.50
+        },
+        {
+          "id": "SmithPotatoChips",
+          "description" : "Smith's original potato chips",
+          "amount" : 2.50
+        },
+        {
+          "id": "GingerBeer",
+          "description" : "Bundaberg ginger beer-280ml",
+          "amount" : 3.50
+        },
+        {
+          "id": "Milk",
+          "description" : "Wools Milk-3 litre",
+          "amount" : 3.0
+        }
+      ]
+    }
+  ]
+}
